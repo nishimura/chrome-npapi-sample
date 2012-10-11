@@ -1,0 +1,24 @@
+#include <windows.h>
+#define IDC_STATIC -1
+
+VS_VERSION_INFO VERSIONINFO
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "FileDescription", "extension test dll"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "MIMEType", "application/x-alert-extension"
+            VALUE "InternalName", "alert.dll"
+            VALUE "LegalCopyright", "Copyright (C) n314 2012"
+            VALUE "OriginalFilename", "alert.dll"
+            VALUE "ProductName", "extalert"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
